@@ -1,0 +1,410 @@
+@gris: #999;
+@gris-clar: #eee;
+@blau: #003e74;
+@verd: #FFF;
+@negre: #001528;
+
+a:hover,
+a:focus {
+  color:@negre;
+}
+
+.filet{
+  border:1px solid @gris;
+}
+
+select {font-size:0.9em;color:red;}
+
+
+//OVERLOAD BOOTSTRAP n
+//MENU HOME
+.nav-pills > li {
+  cursor: pointer;
+  &.active {
+    font-weight: bold;
+    a {
+      background-color: #fff;
+      color: @blau;
+      &:hover {
+        background-color: #fff;
+        color:@negre;
+      }
+    }
+  }
+  > a {
+    color:@blau;
+    background-color: #FFF;
+    &:hover {
+      color:@negre;
+      background-color: #FFF;
+    }
+  }
+}
+  .menu {
+    float:right;
+    display: inline;
+    > div {float:left;}
+  }
+
+  //INDEX:HMTL
+
+  .logo {
+    text-align: center;
+
+    @media (min-width: 768px) {
+      text-align: left;
+    }
+  }
+
+  #PPMiniCart form {
+    left:45% !important;
+    margin-left:-132px !important;
+  }
+
+  //MAIN
+
+  .filtreContainer {
+    > div {
+      float:left;
+      color:@gris;
+      margin-left:15px;
+      cursor:pointer;
+
+      &:hover {
+        color:@blau;
+      }
+      &.selected {
+        color:@blau;
+        font-weight:bold;
+      }
+    }
+  }
+  .cos {
+    margin-bottom:10px;
+    padding-bottom:20px;
+    border-bottom:1px solid @gris-clar;
+
+    @media (min-width: 992px) {
+      position: relative;
+      top: -35px;
+    }
+  }
+
+  .catalogues {
+    padding-top: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid @gris-clar;
+    border-top: 1px solid @gris-clar;
+    margin-bottom:10px;
+
+  }
+
+  .llibre,
+  .catalogue {
+    cursor:pointer;
+    margin-top:5px;
+    margin-bottom:5px;
+
+
+    &:hover {
+      .texte .titol{
+        color:@blau;
+      }
+    }
+
+
+    &.ng-enter{
+      -webkit-transition:1s linear all;
+      -moz-transition:1s linear all;
+      -o-transition:1s linear all;
+      transition:1s linear all;
+      opacity :0;
+
+      &.ng-enter-active {opacity: 1;}
+    }
+
+    &.ng-move {
+      -webkit-transition:1s linear all;
+      -moz-transition:1s linear all;
+      -o-transition:1s linear all;
+      transition:1s linear all;
+      opacity :0.5;
+
+      &.ng-move-active {opacity: 1;}
+    }
+
+    &.ng-leave {
+      -webkit-transition:0.5s linear all;
+      -moz-transition:0.5s linear all;
+      -o-transition:0.5s linear all;
+      transition:0.5s linear all;
+      opacity :1;
+
+      &.ng-leave-active {opacity: 0;}
+    }
+
+
+    .imatge {
+      position:relative;
+
+      &:hover{
+        .mes {opacity:0.9;}
+      }
+
+      .mes {
+        position:absolute;
+        width:62px;
+        margin-left:-31px;
+        left:50%;
+        margin-top:-31px;
+        top:50%;
+        opacity:0;
+        transition: opacity 1s;
+      }
+    }
+    .texte {
+      .titol {
+        font-size:0.8em;
+        color:@gris;
+        uppercase:capitular;
+        margin-top:10px;
+      }
+    }
+    .boto {
+      margin-top:10px;
+
+      button {font-size:0.7em;}
+    }
+  }
+
+  .catalogue {
+    display:block;
+  }
+
+  .modal-backdrop {height:100%;}
+  .modal-title {
+    font-weight:bold;
+    margin-bottom:5px;
+  }
+  .modal-body {
+    font-size:0.8em;
+
+    .desc {color:@gris;}
+
+    .data {
+      font-weight:bold;
+      margin-top:5px;
+      marin-bottom:5px;
+
+      span {font-style: italic;}
+    }
+
+    span.preu {
+      font-weight: bold;
+      font-size:170%;
+      color:@blau;
+    }
+
+    .isbn {
+      font-weight:bold;
+    }
+
+    .seeInside {
+      font-weight: bold;
+      font-size: 1.1em;
+      color: @blau;
+      cursor: pointer;
+      margin-top: 5px;
+
+      &:hover {
+        color: @gris;
+      }
+
+      > a {
+        &:hover {
+          color: @gris;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+
+
+.modalInside {
+  background-color: #fbfbfb;
+  padding:40px;
+  font-size: 40px;
+
+  .tancar {
+    right:10px;
+    font-size: 20px;
+    color: #999;
+    position: absolute;
+    top:10px;
+    cursor: pointer;
+
+    &:hover {
+      color: lighten(@gris, 20%);
+    }
+  }
+
+  .slide {
+    //    position: absolute;
+    //    left: 40;
+    //    top: 0;
+    //    width: 818px;
+    //    opacity: 0;
+    background-color: #FFF;
+  }
+
+
+  .carouselCont {
+    //    margin-top: 20px;
+    //    margin-bottom: 20px;
+    //    padding: 0px 40px;
+    //
+    //    overflow: hidden;
+    //    height: 10px;
+  }
+
+  .left,
+  .right {
+    position: absolute;
+    top: 50%;
+    color: @gris;
+    cursor: pointer;
+    margin-top:-20px;
+    z-index: 1010;
+    font-size: 30px;
+
+    &:hover {
+      color: lighten(@gris, 20%);
+    }
+  }
+  .left {
+    left: 11px;
+  }
+  .right {
+    right: 11px;
+  }
+
+  .left,
+  .right {
+    a {
+      text-decoration: none;
+      color:#999;
+      &:hover {
+        color: lighten(@gris, 20%);
+      }
+    }
+  }
+}
+
+.bx-wrapper {
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+}
+
+
+///////// ABOUT
+
+.about,
+.contact {
+  .panel-default {
+    border-radius: 10px;
+    margin-top: 50px;
+    float:left;
+    margin-left:20px;
+
+    .panel-heading {
+      font-size: 2em;
+      background-color: transparent;
+      font-weight: bold;
+    }
+    .panel-body {
+      font-size: 0.8em;
+    }
+  }
+}
+
+.contact {
+  .correu{
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+
+    a,a:hover {text-decoration: none;}
+
+  }
+}
+
+/////// CART
+
+.cart {
+  .item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid @gris-clar;
+
+    .img { display:block;}
+    .title {
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 40px;
+    }
+    .input-group {
+      justify-content: center;
+    }
+    .priceByBooq {
+      font-size: 16px;
+      text-align: right;
+      margin-top: 40px;
+    }
+    .price {
+      font-weight: bold;
+      font-size: 16px;
+      text-align: right;
+      margin-top: 40px;
+    }
+
+    .contador {
+      margin-top: 40px;
+    }
+  }
+
+  .total {
+    background-color: @gris-clar;
+    &.item {
+      border-bottom: 1px solid @gris;
+    }
+    &.totalsum {
+      font-weight: bold;
+    }
+  }
+}
+
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+//  justify-content: center; /* Optional, to align inner items
+//                              horizontally inside the column */
+}
+
+/**
+ *  Do NOT include this part into your stylesheet.
+ *  "flex: 1" or "flex-grow: 1" is added to make the inner div
+ *  - Which is also a flex-item - take up all the horizontal space
+ *  available space inside the flex container (.col-* elements)
+ */
+.vertical-align > [class^="col-"] > div,
+.vertical-align > [class*=" col-"] > div {
+  /* flex: 1; */
+  flex-grow: 1;
+}

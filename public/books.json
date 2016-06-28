@@ -1,0 +1,339 @@
+[
+    {
+        //"type": "Architecture",
+        //"category": "ContemporaryArchitecture",
+        //"size": {
+        //    "cm": "27 x 31 ",
+        //    "inch": "10.6 x 12.2 "
+        //},
+        //"price": "0.5",
+        //"isbn": "978-84-942491-2-9",
+        //"pages": 492,
+        //"colorfull": 200,
+        //"bw": 30,
+        //"cover": "Hardcover",
+        //"pub_date": 1412114400000,
+        //"title": "A House in a Week. Prefab Houses",
+        //"author": "Francesc Zamora",
+        //"image": {
+        //    "cover": "12.jpg",
+        //    "tableContent": "12.pdf",
+        //    "interior": [
+        //        "12_int_2.jpg",
+        //        "12_int_3.jpg",
+        //        "12_int_4.jpg",
+        //        "12_int_5.jpg",
+        //        "12_int_6.jpg",
+        //        "12_int_7.jpg",
+        //        "12_int_8.jpg",
+        //        "12_int_9.jpg",
+        //        "12_int_10.jpg",
+        //        "12_int_11.jpg",
+        //        "12_int_12.jpg",
+        //        "12_int_13.jpg",
+        //        "12_int_14.jpg"
+        //    ]
+        //},
+        //"description": "Interest in prefabrication arose during the Great Depression to satisfy the need for affordable housing. At that time, these systems were intended for  PREfab construction methods drew the attention of modernist architects and designers. Its modularity offers flexibility. Its affordable cost appeals to a wider audience and its efficient use of materials reduces waste, responding to environmental concerns."
+    },
+    {
+        //"type": "Interiors",
+        //"category": "HomeInteriors",
+        //"size": {
+        //    "cm": "27 x 31 ",
+        //    "inch": "10.6 x 12.2 "
+        //},
+        //"price": "35",
+        //"pages": 493,
+        //"colorfull": 400,
+        //"bw": 100,
+        //"cover": "Hardcover",
+        //"available": "Turu",
+        //"isbn": "978-84-942491-3-6",
+        //"isbn_es": "978-84-942491-9-9",
+        //"isbn_ca": "978-84-942491-9-9",
+        //"isbn_nl": "978-84-942491-9-9",
+        //"isbn_fr": "978-84-942491-9-9",
+        //"pub_date": 1412114400000,
+        //"title": "Small & Chic Interiors",
+        //"author": "Manel Gutiérrez",
+        //"image": {
+            //"cover": "13.jpg",
+            //"tableContent": "13.pdf",
+            //"interior": [
+            //    "13_int_2.jpg",
+            //    "13_int_3.jpg",
+            //    "13_int_4.jpg",
+            //    "13_int_5.jpg",
+            //    "13_int_6.jpg",
+            //    "13_int_7.jpg",
+            //    "13_int_8.jpg",
+            //    "13_int_9.jpg",
+            //    "13_int_10.jpg",
+            //    "13_int_11.jpg"
+        //    ]
+        //},
+        "video": "<div id='fb-root'></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = '//connect.facebook.net/ca_ES/sdk.js#xfbml=1&version=v2.3';  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class='fb-video' data-allowfullscreen='1' data-width='167' data-href='/JaponAndMore/videos/vb.1586183191616051/1736238463277189/?type=3'><div class='fb-xfbml-parse-ignore'></div></div>",
+        //"description": "In an increasingly crowded world, where homes must squeeze the most of available space, the challenge lies in the search for creative solutions to meet new space requirements. The use of new technologies and strategies are essential to optimize every square foot. This book is profusely illustrated with beautiful examples offering the reader inspiring and creative ideas developed by today’s most forward-thinking interior designers."
+    },
+    {
+        //"type": "Architecture and Interiors",
+        //"category": "ContemporaryArchitecture",
+        //"size": {
+        //    "cm": "27 x 31 ",
+        //    "inch": "10.6 x 12.2 "
+        //},
+        //"price": "35",
+        //"pages": 492,
+        //"colorfull": 500,
+        //"bw": 100,
+        //"cover": "Hardcover",
+        //"isbn": "978-84-942491-0-5",
+        //"pub_date": 1412114400000,
+        //"title": "Visual Tips on Eco Living. <br/>A Practical and Inspirational Guide",
+        //"author": "Sergi Costa, Cristina Paredes, Lorena Farrás",
+        //"image": {
+        //    //"cover": "14.jpg",
+        //    //"tableContent": "14.pdf",
+        //    "interior": [
+        //        "14_int_2.jpg",
+        //        "14_int_3.jpg",
+        //        "14_int_4.jpg",
+        //        "14_int_5.jpg",
+        //        "14_int_6.jpg",
+        //        "14_int_7.jpg",
+        //        "14_int_8.jpg",
+        //        "14_int_9.jpg",
+        //        "14_int_10.jpg",
+        //        "14_int_11.jpg",
+        //        "14_int_12.jpg"
+        //    ]
+        //},
+        //"description": "Called the “new architecture for the new world,” sustainable building is firmly established as an important influence on residential design. This book is a complete guide to the structural features and interior and exterior elements that make a house healthy for its resid ents and for Earth. From solar roofs to sinks that flush the toilet by recycling their gray water, there are any number of options, expensive and inexpensive, that can turn a home into an 'eco-house.'<br/>This is a fascinating volume packed with descriptive photographs and the most current expert information. Builders, contractors, designers and home owners will find it inspiring and practical."
+    },
+    {
+        //"type": "Architecture",
+        //"category": "ContemporaryArchitecture",
+        //"size": {
+        //    "cm": "24 x 26,5 ",
+        //    "inch": "9.4 x 10.4 "
+        //},
+        //"price": "24.99",
+        //"pages": 288,
+        //"colorfull": 1000,
+        //"bw": 50,
+        //"cover": "Hardcover",
+        //"isbn": "978-84-942639-4-1",
+        //"pub_date": 1412114400000,
+        //"title": "Close-Up Series: 1000 Architecture Details",
+        //"author": "Àlex Sánchez, Sergi Costa, Júlio Fajardo",
+        //"image": {
+            //"cover": "23.jpg",
+            //"tableContent": "15.pdf",
+            //"interior": [
+            //    "15_int_2.jpg",
+            //    "15_int_3.jpg",
+            //    "15_int_4.jpg",
+            //    "15_int_5.jpg",
+            //    "15_int_6.jpg",
+            //    "15_int_7.jpg",
+            //    "15_int_8.jpg",
+            //    "15_int_9.jpg"
+            ]
+        },
+        //"description": "This title meant to serve as a reference catalogue for architects, designers and constructors. The material has been selected for its capacity to inspire and propose innovative ideas on how to approach the design or construction of different parts of a new project or a conversion. Divided into fifteen main thematic chapters, the details included are numbered in the layout and appear in order, 1 through 1000, and are illustrated with either close-up photographs or specific technical drawings, or both, and explained in concise short paragraphs next to the images.  "
+    },
+    {
+        //"type": "Fashion Design",
+        //"price": "24.99",
+        //"category": "Fashion",
+        //"size": {
+        //    "cm": "24 x 26,5 ",
+        //    "inch": "9.4 x 10.4 "
+        //},
+        //"pages": 288,
+        //"colorfull": 1000,
+        //"cover": "Hardcover",
+        //"isbn": "978-84-942639-2-7",
+        //"pub_date": 1412114400000,
+        //"title": "Close-Up Series: 1000 Fashion Details",
+        //"image": {
+        //    "cover": "16.jpg",
+        //    "tableContent": "16.pdf",
+        //    "interior": [
+        //        "16_int_2.jpg",
+        //        "16_int_3.jpg",
+        //        "16_int_4.jpg",
+        //        "16_int_5.jpg",
+        //        "16_int_6.jpg",
+        //        "16_int_7.jpg",
+        //        "16_int_8.jpg",
+        //        "16_int_9.jpg",
+        //        "16_int_10.jpg",
+        //        "16_int_11.jpg",
+        //        "16_int_12.jpg",
+        //        "16_int_13.jpg"
+        //    ]
+        //},
+        //"author": "Natalio Martín",
+        //"description": "1000 Fashion Details is a complete compilation of international fashion collections where you'll find a selection of the finest details, categorized into eight different chapters: collars, necklines, sleeves, waistbands, etc. Details convert fashion into a never-ending source of resources and have resulted in the distinction of unforgettable collections. Established designers and young talents from around the world reveal the magnificence of their individual haute couture techniques that they combine with innovative advances. An endless range of possibilities that will satisfy the expectations of the most curious and creative minds in search of the perfect detail."
+    },
+    {
+        "type": "Architecture Monography",
+        "category": "ArchitectureMonography",
+        "size": {
+            "cm": "29,2 x 29,7",
+            "inch": "10.7 x 11.4"
+        },
+        "price": "45",
+        "isbn": "978-84-9936-994-5",
+        "pages": 272,
+        "colorfull": 272,
+        "cover": "Hardcover and slipcase",
+        "pub_date": 1412114400000,
+        "title": "Curiosity",
+        "image": {
+            "cover": "17.jpg",
+            "tableContent": "17.pdf",
+            "interior": [
+                "17_int_1.jpg",
+                "17_int_2.jpg",
+                "17_int_3.jpg",
+                "17_int_4.jpg",
+                "17_int_5.jpg",
+                "17_int_6.jpg",
+                "17_int_7.jpg",
+                "17_int_8.jpg",
+                "17_int_9.jpg",
+                "17_int_10.jpg",
+                "17_int_11.jpg",
+                "17_int_12.jpg"
+            ]
+        },
+        "description": "Curiosity Essence is an attempt of French-borned architect Nicolas Gwanael to share his experience of 20 years of living and working in Japan. He tries redefines his understanding of design by detailing how he discovered another culture and individuals, revealed similarities and disparities among the unexpected interaction.\nThe 6 themes presented in this book highlight some of those discoveries that became the Essence of Curiosity."
+    },
+    {
+        "type": "Design",
+        "category": "Design",
+        "size": {
+            "cm": "25,2 X 25,2",
+            "inch": "10 x 10 in"
+        },
+        "price": "9.99",
+        "isbn": "978-84-9936-990-7",
+        "pages": 120,
+        "colorfull": 120,
+        "cover": "Softcover",
+        "pub_date": 1412114400000,
+        "title": "Mandalas to Paint and Relax",
+        "image": {
+            "cover": "18.jpg",
+            "interior": [
+                "18_int_16.jpg",
+                "18_int_15.jpg",
+                "18_int_14.jpg",
+                "18_int_13.jpg",
+                "18_int_12.jpg",
+                "18_int_11.jpg",
+                "18_int_10.jpg",
+                "18_int_9.jpg",
+                "18_int_8.jpg",
+                "18_int_7.jpg",
+                "18_int_6.jpg",
+                "18_int_5.jpg",
+                "18_int_4.jpg",
+                "18_int_3.jpg",
+                "18_int_2.jpg",
+                "18_int_1.jpg"
+            ]
+        },
+        "description": "In modern times it was the Swiss psychologist, Carl Gustav Jung, who brought the spiritual art of mandalas to Western culture. Today, many have become icons of culture and belief, such as the Hindu mantra, om . This book showcases ornamental mandalas, whose aim is simply to decorate, adorn and beautify. These mandalas add decorative free-thinking designs to the beauty of spirit cherished by men and women throughout our evolution. Here you will find decorative elements from runic, oriental, gothic, futuristic and even art nouveau styles."
+    },
+    {
+        "type": "Design",
+        "category": "Design",
+        "size": {
+            "cm": "25,2 X 25,2",
+            "inch": "10 x 10"
+        },
+        "price": "9.99",
+        "isbn": "978-84-9936-992-1",
+        "pages": 120,
+        "colorfull": 120,
+        "cover": "Softcover",
+        "pub_date": 1412114400000,
+        "title": "Mathematical Mandalas",
+        "image": {
+            "cover": "19.jpg",
+            "interior": [
+                "19_int_8.jpg",
+                "19_int_7.jpg",
+                "19_int_6.jpg",
+                "19_int_5.jpg",
+                "19_int_4.jpg",
+                "19_int_3.jpg",
+                "19_int_2.jpg",
+                "19_int_1.jpg"
+            ]
+        },
+        "description": "With their origins in Buddhism and Hinduism, mandalas are complex artistic representations of the macrocosm and microcosm.\n In this book you will find mandalas formed from geometric elements such as squares, circles and ellipses, which both respect and recall the basics of this ancient art. Its secret lies in the precise combination of mathematical figures, producing spectacular decorative effects. The sun, the moon and the stars – all these elements appear in this book thanks to their relationship with the language of mathematics"
+    },
+    {
+        "type": "Design",
+        "category": "Design",
+        "size": {
+            "cm": "25,2 X 25,2",
+            "inch": "10 x 10"
+        },
+        "price": "9.99",
+        "isbn": "978-84-9936-990-7",
+        "pages": 120,
+        "colorfull": 120,
+        "cover": "Softcover",
+        "pub_date": 1412114400000,
+        "title": "Flower and Plant Mandalas",
+        "image": {
+            "cover": "20.jpg",
+            "interior": [
+                "20_int_1.jpg",
+                "20_int_2.jpg",
+                "20_int_3.jpg",
+                "20_int_4.jpg",
+                "20_int_5.jpg",
+                "20_int_6.jpg",
+                "20_int_7.jpg",
+                "20_int_8.jpg"
+            ]
+        },
+        "description": "The word mandala means ‘circle’. Furthermore, mandalas represent the eternal and absolute – the transcendent.\n Based on natural forms, flower and plant mandalas intertwine motifs of flowers and vegetation to create images that are as disparate as they are beautiful. Attentive readers will even find references to artistic movements such as Modernism, Minimalism and Baroque. From the earliest human civilizations to the present day, floral elements have played an important role in artistic representation and mandalas are no exception"
+    },
+    {
+        "type": "Design",
+        "category": "Design",
+        "size": {
+            "cm": "25,2 X 25,2",
+            "inch": "10 x 10"
+        },
+        "price": "9.99",
+        "isbn": "978-84-9936-991-4",
+        "pages": 120,
+        "colorfull": 120,
+        "cover": "Softcover",
+        "pub_date": 1412114400000,
+        "title": "Mandalas for Youngsters",
+        "image": {
+            "cover": "21.jpg",
+            "interior": [
+                "21_int_8.jpg",
+                "21_int_7.jpg",
+                "21_int_6.jpg",
+                "21_int_5.jpg",
+                "21_int_4.jpg",
+                "21_int_3.jpg",
+                "21_int_2.jpg",
+                "21_int_1.jpg"
+            ]
+        },
+        "description": "Mandalas origins lie in India and were later extended to other cultures. Today some mandalas have been converted into icons of culture and belief, such as the Chinese yin-yang . In this book we have included more casual mandalas, which add a sense of fun and sparkle to conventional approaches. Figurative mandalas composed of elements such as animals, boats, musical imagery, sweets or decorations combine with humour to form fun and harmonious shapes. These images bring an earthly perspective to the mandala, closer to the thoughts and motivations of youth."
+    }
+]

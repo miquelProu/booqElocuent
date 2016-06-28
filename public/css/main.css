@@ -1,0 +1,347 @@
+a:hover,
+a:focus {
+  color: #001528;
+}
+.filet {
+  border: 1px solid #999999;
+}
+select {
+  font-size: 0.9em;
+  color: red;
+}
+.nav-pills > li {
+  cursor: pointer;
+}
+.nav-pills > li.active {
+  font-weight: bold;
+}
+.nav-pills > li.active a {
+  background-color: #fff;
+  color: #003e74;
+}
+.nav-pills > li.active a:hover {
+  background-color: #fff;
+  color: #001528;
+}
+.nav-pills > li > a {
+  color: #003e74;
+  background-color: #FFF;
+}
+.nav-pills > li > a:hover {
+  color: #001528;
+  background-color: #FFF;
+}
+.menu {
+  float: right;
+  display: inline;
+}
+.menu > div {
+  float: left;
+}
+.logo {
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .logo {
+    text-align: left;
+  }
+}
+#PPMiniCart form {
+  left: 45% !important;
+  margin-left: -132px !important;
+}
+.filtreContainer > div {
+  float: left;
+  color: #999999;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.filtreContainer > div:hover {
+  color: #003e74;
+}
+.filtreContainer > div.selected {
+  color: #003e74;
+  font-weight: bold;
+}
+.cos {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eeeeee;
+}
+@media (min-width: 992px) {
+  .cos {
+    position: relative;
+    top: -35px;
+  }
+}
+.catalogues {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+  border-top: 1px solid #eeeeee;
+  margin-bottom: 10px;
+}
+.llibre,
+.catalogue {
+  cursor: pointer;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.llibre:hover .texte .titol,
+.catalogue:hover .texte .titol {
+  color: #003e74;
+}
+.llibre.ng-enter,
+.catalogue.ng-enter {
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  -o-transition: 1s linear all;
+  transition: 1s linear all;
+  opacity: 0;
+}
+.llibre.ng-enter.ng-enter-active,
+.catalogue.ng-enter.ng-enter-active {
+  opacity: 1;
+}
+.llibre.ng-move,
+.catalogue.ng-move {
+  -webkit-transition: 1s linear all;
+  -moz-transition: 1s linear all;
+  -o-transition: 1s linear all;
+  transition: 1s linear all;
+  opacity: 0.5;
+}
+.llibre.ng-move.ng-move-active,
+.catalogue.ng-move.ng-move-active {
+  opacity: 1;
+}
+.llibre.ng-leave,
+.catalogue.ng-leave {
+  -webkit-transition: 0.5s linear all;
+  -moz-transition: 0.5s linear all;
+  -o-transition: 0.5s linear all;
+  transition: 0.5s linear all;
+  opacity: 1;
+}
+.llibre.ng-leave.ng-leave-active,
+.catalogue.ng-leave.ng-leave-active {
+  opacity: 0;
+}
+.llibre .imatge,
+.catalogue .imatge {
+  position: relative;
+}
+.llibre .imatge:hover .mes,
+.catalogue .imatge:hover .mes {
+  opacity: 0.9;
+}
+.llibre .imatge .mes,
+.catalogue .imatge .mes {
+  position: absolute;
+  width: 62px;
+  margin-left: -31px;
+  left: 50%;
+  margin-top: -31px;
+  top: 50%;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.llibre .texte .titol,
+.catalogue .texte .titol {
+  font-size: 0.8em;
+  color: #999999;
+  uppercase: capitular;
+  margin-top: 10px;
+}
+.llibre .boto,
+.catalogue .boto {
+  margin-top: 10px;
+}
+.llibre .boto button,
+.catalogue .boto button {
+  font-size: 0.7em;
+}
+.catalogue {
+  display: block;
+}
+.modal-backdrop {
+  height: 100%;
+}
+.modal-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.modal-body {
+  font-size: 0.8em;
+}
+.modal-body .desc {
+  color: #999999;
+}
+.modal-body .data {
+  font-weight: bold;
+  margin-top: 5px;
+  marin-bottom: 5px;
+}
+.modal-body .data span {
+  font-style: italic;
+}
+.modal-body span.preu {
+  font-weight: bold;
+  font-size: 170%;
+  color: #003e74;
+}
+.modal-body .isbn {
+  font-weight: bold;
+}
+.modal-body .seeInside {
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #003e74;
+  cursor: pointer;
+  margin-top: 5px;
+}
+.modal-body .seeInside:hover {
+  color: #999999;
+}
+.modal-body .seeInside > a:hover {
+  color: #999999;
+  text-decoration: none;
+}
+.modalInside {
+  background-color: #fbfbfb;
+  padding: 40px;
+  font-size: 40px;
+}
+.modalInside .tancar {
+  right: 10px;
+  font-size: 20px;
+  color: #999;
+  position: absolute;
+  top: 10px;
+  cursor: pointer;
+}
+.modalInside .tancar:hover {
+  color: #cccccc;
+}
+.modalInside .slide {
+  background-color: #FFF;
+}
+.modalInside .left,
+.modalInside .right {
+  position: absolute;
+  top: 50%;
+  color: #999999;
+  cursor: pointer;
+  margin-top: -20px;
+  z-index: 1010;
+  font-size: 30px;
+}
+.modalInside .left:hover,
+.modalInside .right:hover {
+  color: #cccccc;
+}
+.modalInside .left {
+  left: 11px;
+}
+.modalInside .right {
+  right: 11px;
+}
+.modalInside .left a,
+.modalInside .right a {
+  text-decoration: none;
+  color: #999;
+}
+.modalInside .left a:hover,
+.modalInside .right a:hover {
+  color: #cccccc;
+}
+.bx-wrapper {
+  border: 0;
+  box-shadow: none;
+  margin: 0;
+}
+.about .panel-default,
+.contact .panel-default {
+  border-radius: 10px;
+  margin-top: 50px;
+  float: left;
+  margin-left: 20px;
+}
+.about .panel-default .panel-heading,
+.contact .panel-default .panel-heading {
+  font-size: 2em;
+  background-color: transparent;
+  font-weight: bold;
+}
+.about .panel-default .panel-body,
+.contact .panel-default .panel-body {
+  font-size: 0.8em;
+}
+.contact .correu {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+}
+.contact .correu a,
+.contact .correu a:hover {
+  text-decoration: none;
+}
+.cart .item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+.cart .item .img {
+  display: block;
+}
+.cart .item .title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+.cart .item .input-group {
+  justify-content: center;
+}
+.cart .item .priceByBooq {
+  font-size: 16px;
+  text-align: right;
+  margin-top: 40px;
+}
+.cart .item .price {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: right;
+  margin-top: 40px;
+}
+.cart .item .contador {
+  margin-top: 40px;
+}
+.cart .total {
+  background-color: #eeeeee;
+}
+.cart .total.item {
+  border-bottom: 1px solid #999999;
+}
+.cart .total.totalsum {
+  font-weight: bold;
+}
+.vertical-align {
+  display: flex;
+  flex-direction: row;
+}
+.vertical-align > [class^="col-"],
+.vertical-align > [class*=" col-"] {
+  display: flex;
+  align-items: center;
+}
+/**
+ *  Do NOT include this part into your stylesheet.
+ *  "flex: 1" or "flex-grow: 1" is added to make the inner div
+ *  - Which is also a flex-item - take up all the horizontal space
+ *  available space inside the flex container (.col-* elements)
+ */
+.vertical-align > [class^="col-"] > div,
+.vertical-align > [class*=" col-"] > div {
+  /* flex: 1; */
+  flex-grow: 1;
+}
